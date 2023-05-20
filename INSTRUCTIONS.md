@@ -14,9 +14,9 @@ fastboot delete-logical-partition system_a
 
 fastboot delete-logical-partition product_a
 
-fastboot create-logical-partition system_a 
+fastboot create-logical-partition system_a 1
 
-fastboot create-logical-partition product_a 
+fastboot create-logical-partition product_a 1
 
 fastboot flash boot boot.img
 
